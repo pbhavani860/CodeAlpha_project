@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Landing Page</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white mb-3 fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://res.cloudinary.com/dab1hrsmd/image/upload/v1684230934/20230515_115543_jnes48.png" class="muzli-logo" />
+                <span class="ml-3">Muzli Inspiration</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="aCstm" href="https://medium.muz.li/" target="_blank">Blog</a>
+                    <a class="aCstm" href="https://muz.li/about/" target="_blank">About</a>
+                    <a class="aCstm" href="https://muz.li/contact/" target="_blank">Contact</a>
+                    <a class="aCstm" href="https://muz.li/advertisers/" target="_blank">Advertise</a>
+                    <a class="aCstm" href="https://apps.apple.com/us/app/muzli/id1547818167" target="_blank">Mobile App</a>
+                    <button class="buttonCstm">Get Muzli</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <h1 class="heading mt-5">Designers' Secret Source</h1>
+                    <p class="top-description pt-3">The best design inspiration - expertly curated for you.</p>
+                    <p class="top-description-two pt-1">Muzli is a new-tab browser plugin and mobile app that instantly delivers relevant design stories and inspiration. <a href="https://muz.li/about/" target="_blank">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
+    <div class="text-center top-section-two d-flex justify-content-center mb-5 pb-5 flex-row">
+        <div class="mr-3"><button class="getmoreButton"><i class="fa fa-chrome icon" aria-hidden="true"></i>Get Muzli For Chrome</button></div>
+        <div><i class="fa fa-play icon2"></i></div>
+    </div>
+
+    <div class="bannerSection pt-5"></div>
+
+    <div class="mt-5 pt-5">
+        <div class="container">
+            <div class="row">
+               <div class="text-center pb-2">
+                    <h2 class="hand-picked-hdng">Hand picked inspiration</h2>
+                    <p class="hand-picked-para">Join over <spn class="spclCstm">500K designers</spn>, product managers & developers to get your daily dose of fresh, professionally curated graphic design, tech, news, art, illustration, typography, photography, architecture, fashion and so much more.</p>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pb-5">
+        <div class="hand-picked-bannerSection pb-5 mb-5"></div>
+    </div>      
+    
+    <div class="trend-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center flex-row">
+                    <div class="d-flex justify-content-center flex-column">
+                        <h1 class="trend-section-heading">
+                            Be the first to know of the latest design trends
+                        </h1>
+                        <p class="trend-section-description">
+                            Staying current is crucial to continuously improve yourself and be prepared for upcoming trends in design & technology.
+                        </p>
+                        <p class="trend-section-description">
+                            Learn new skills and get inspired by what others are doing.
+                        </p>
+                    </div>
+
+                    <div class="text-center">
+                        <img src="https://res.cloudinary.com/dab1hrsmd/image/upload/v1684170696/Screenshot_564_ifqsvb.png" class="trend-section-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="trend-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center flex-row">
+
+                    <div class="text-center">
+                        <img src="https://res.cloudinary.com/dab1hrsmd/image/upload/v1684170697/Screenshot_565_pruosv.png" class="trend-section-img" />
+                    </div>
+
+                    <div class="d-flex justify-content-center flex-column ml-4">
+                        <h1 class="trend-section-heading">
+                            Customizable & personalized
+                        </h1>
+                        <p class="trend-section-description">
+                            Muzli curates the latest content from hundreds of online design, tech & news publications. you can pick-and-choose what interests you and we'll take care of the rest by surfacing the best content and bring it all together.                        </p>
+                        <p class="trend-section-description">
+                            Stay on top of it all and find everything in one place.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5 pt-5">
+        <div class="container">
+            <div class="row">
+               <div class="text-center pb-2">
+                    <h2 class="hand-picked-hdng">Inspiration, wherever you are</h2>
+                    <p class="hand-picked-para">Inspiration might strike anywhere. Muzli is available on desktops/web as a browser plugin for Chrome & Safari, and also on mobile for iOS devices.</p>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pb-5">
+        <div class="Inspiration-bannerSection pb-5 mb-5"></div>
+    </div>
+
+
+
+    <div class="mb-5 pt-5">
+        <div class="container">
+            <div class="row">
+               <div class="text-center pb-2">
+                    <h1 class="rating-hdng">Join over 500K others who enjoy Muzli</h1>
+               </div>
+               <div class="d-flex justify-content-center flex-row">
+               <div class="mr-4 p-3">
+                    <div>
+                        <p class="rating-para">"I LOVE this app it is very useful and helpful. Thanks Muzli you made my daily life easy with awesome content"</p>
+                        <p class="pt-3"><a href="#">Waqas Karim</a>
+                        <i class="fa fa-solid fa-star starIcon ml-4"></i>
+                        <i class="fa fa-solid fa-star starIcon"></i>
+                        <i class="fa fa-solid fa-star starIcon"></i>
+                        <i class="fa fa-solid fa-star starIcon"></i>
+                        <i class="fa fa-solid fa-star starIcon"></i></p>
+                    </div>
+                    <div>
+                        <p class="rating-para pt-4">"the best replacement for chrome new tab it keeps me up to-date with the latest designing feeds with no stupid ads all over the place thanks for that <3"</p>
+                        <p class="pt-3"><a href="#">Hadi Golkarian</a>
+                        <i class="fa fa-solid fa-star starIcon ml-4"></i>
+                        <i class="fa fa-solid fa-star starIcon"></i>
+                        <i class="fa fa-solid fa-star starIcon"></i>
+                        <i class="fa fa-solid fa-star starIcon"></i>
+                        <i class="fa fa-solid fa-star starIcon"></i></p>
+                    </div>
+                </div>
+
+                <div class="mr-4 p-3">
+                    <div>
+                        <p class="rating-para">"Hi Muzli, your team work is very inspirational for Designer, in every morning start one cup of coffee with MUZLi!"</p>
+                        <p class="pt-3"><a href="#">Anurag Tiwari</a>
+                        <i class="fa fa-solid fa-star starIcon ml-4"></i>
+                        <i class="fa fa-solid fa-star starIcon"></i>
+                        <i class="fa fa-solid fa-star starIcon"></i>
+                        <i class="fa fa-solid fa-star starIcon"></i>
+                        <i class="fa fa-solid fa-star starIcon"></i></p>
+                    </div>
+                    <div>
+                        <p class="rating-para pt-4">"I love every time I open my browser I get all of the latest design news. I use it when I am short on time to grab something interesting to share on my social media channels too."</p>
+                        <p class="pt-3"><a href="#">Clay Pruzinsky</a>
+                        <i class="fa fa-solid fa-star starIcon ml-4"></i>
+                        <i class="fa fa-solid fa-star starIcon"></i>
+                        <i class="fa fa-solid fa-star starIcon"></i>
+                        <i class="fa fa-solid fa-star starIcon"></i>
+                        <i class="fa fa-solid fa-star starIcon"></i></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footerSection p-5 mb-2 d-flex justify-content-center flex-row">
+
+        <div class="footerSection1 mr-4">
+            <img src="https://res.cloudinary.com/dab1hrsmd/image/upload/v1684217463/Screenshot_2023-05-16_114006_wqyuj2.png"/>
+            <p class="footerSection1-para pt-4">Muzli instantly delivers cutting-edge design projects and news each time a new tab is open in your browser.</p>
+            <p class="footerSection1-para">Discover the best web design inspiration, best websites, best logos, web trends, best mobiles sites and applications, minimalist websites, brutalist websites, innovative illustrations, design features, unique websites, photography projects, and visual art, as well as opinions and articles from design experts across the web and around the world.</p>
+        </div>
+        <div class="footerSection2">
+            <h5 class="footerSection-hdng pb-3">Products</h5>
+            <a class="footerSection-para">Browser plugin</a><br>
+            <a class="footerSection-para">Inspiration search</a><br>
+            <a class="footerSection-para">Color search</a><br>
+            <a class="footerSection-para">Inspiration collections</a><br>
+            <a class="footerSection-para">Color Names</a><br>
+            <a class="footerSection-para">Blog</a>
+        </div>
+        <div class="footerSection3">
+            <h5 class="footerSection-hdng pb-3">Follow us</h5>
+            <a class="footerSection-para">Medium</a><br>
+            <a class="footerSection-para">Instagram</a><br>
+            <a class="footerSection-para">Facebook</a><br>
+            <a class="footerSection-para">Twitter</a><br>
+            <a class="footerSection-para">Pinterest</a><br>
+            <a class="footerSection-para">LinkedIn</a><br>
+            <a class="footerSection-para">Weekly digest</a><br>
+        </div>
+        <div class="footerSection4">
+            <h5 class="footerSection-hdng pb-3">Company</h5>
+            <a class="footerSection-para">About</a><br>
+            <a class="footerSection-para">Privacy policy</a><br>
+            <a class="footerSection-para">Terms of service</a><br>
+            <a class="footerSection-para">Partner with us</a><br>
+        </div>
+        <div class="footerSection5">
+                <h5 class="footerSection-hdng pb-3">Reach us</h5>
+                <a class="footerSection-para">Contact</a><br>
+                <a class="footerSection-para">Suggest a link</a><br>
+                <a class="footerSection-para">Bug report</a><br>
+                <a class="footerSection-para">Publish on our Medium</a><br>
+                <a class="footerSection-para">publication</a><br>
+                <div class="footerSection5 mt-3"><img src="https://res.cloudinary.com/dab1hrsmd/image/upload/v1684220024/download_menusb.png" class="my-image"/></div>
+        </div>
+    </div>
+
+    <div class="copyRight">
+        <div><p></p><i class="fa fa-copyright pr-1"></i>2023 Muzli · All Right Reserved. Read our <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a></p></div>
+        <div></div><p><a href="#">EN</a> / <a href="#">中文</a> / <a href="#">ES</a> / <a href="#">FR</a> / <a href="#">RU</a></p></div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+</html>
